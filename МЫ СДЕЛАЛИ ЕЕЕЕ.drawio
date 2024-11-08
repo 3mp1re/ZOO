@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
+  <diagram name="Page-1" id="Vv8oqf8h_gGVpYC5cq23">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="382b91b5511bd0f7-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="485" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jqjyWlzfqncXxzGECs4i-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="382b91b5511bd0f7-6" target="0YlXZUJ-ri-cnlXAhhgM-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jqjyWlzfqncXxzGECs4i-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="382b91b5511bd0f7-6" target="382b91b5511bd0f7-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-6" value="Билет куплен" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n2QlYlgklOxczu0U5S3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="382b91b5511bd0f7-9" target="24f968d109e7d6b4-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-9" value="Билет не использован&lt;div&gt;&lt;br&gt;&lt;div&gt;entry: покупатель не использовал билет&lt;br&gt;exit: деактивация билета&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="410" y="380" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2a3bc250acf0617d-9" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="382b91b5511bd0f7-1" target="382b91b5511bd0f7-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24f968d109e7d6b4-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="485" y="710" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-n2QlYlgklOxczu0U5S3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="382b91b5511bd0f7-6" target="-n2QlYlgklOxczu0U5S3-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXL36PRwnuSOTPADuA24-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="0YlXZUJ-ri-cnlXAhhgM-5" target="24f968d109e7d6b4-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="260" />
+              <mxPoint x="150" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXL36PRwnuSOTPADuA24-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="0YlXZUJ-ri-cnlXAhhgM-5" target="382b91b5511bd0f7-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="260" />
+              <mxPoint x="150" y="120" />
+              <mxPoint x="500" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YlXZUJ-ri-cnlXAhhgM-5" value="&lt;div&gt;Билет отменен&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;entry: покупатель отменил покупку&lt;br&gt;exit: возврат денег покупателю&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="180" y="220" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0YlXZUJ-ri-cnlXAhhgM-12" value="- Билет отменен покупателем&lt;div&gt;- Билет отменен зоопарком&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="190" y="60" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jqjyWlzfqncXxzGECs4i-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0YlXZUJ-ri-cnlXAhhgM-12" target="0YlXZUJ-ri-cnlXAhhgM-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DCg1Mhz73p0XZVv63Hhu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="-n2QlYlgklOxczu0U5S3-1" target="-n2QlYlgklOxczu0U5S3-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n2QlYlgklOxczu0U5S3-1" value="&lt;div&gt;Билет отсканирован при входе&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;entry: покупатель вошел в зоопарк по билету&lt;/div&gt;&lt;div&gt;exit: билет становится активированным&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="630" y="220" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-n2QlYlgklOxczu0U5S3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="-n2QlYlgklOxczu0U5S3-4" target="24f968d109e7d6b4-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-n2QlYlgklOxczu0U5S3-4" value="&lt;div&gt;Билет использован&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;entry: конец дня&lt;/div&gt;&lt;div&gt;exit: деактивация билета&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="630" y="380" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DCg1Mhz73p0XZVv63Hhu-4" value="Билет просрочен и не был использован" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=middle;align=center;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="360" y="290" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sUTvSy-YI_yEBH4Dhsez-1" value="Билет успешно оплачен и активен" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="670" y="100" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tag7URH1wY4UmngilJjl-1" value="" style="edgeStyle=none;endArrow=none;dashed=1;html=1;rounded=0;entryX=0.889;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="DCg1Mhz73p0XZVv63Hhu-4" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="500" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tag7URH1wY4UmngilJjl-2" value="" style="edgeStyle=none;endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="sUTvSy-YI_yEBH4Dhsez-1" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="650" y="170" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="510" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISD0wjWwOzyyy0kSP5Hp-1" value="" style="edgeStyle=none;endArrow=none;dashed=1;html=1;rounded=0;exitX=0.679;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0YlXZUJ-ri-cnlXAhhgM-12" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="360" y="170" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="680" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
